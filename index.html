@@ -10,7 +10,7 @@
 <style>
   :root{
     --bg:#0a0e16; --bg2:#0d1320; --panel:#111a2b; --panel2:#0f1626;
-    --line:#1e2a40; --line2:#2c3d5c; --text:#e8edf5; --dim:#8b99ad; --faint:#5b6980;
+    --line:#1e2a40; --line2:#2c3d5c; --text:#eef2f8; --dim:#b3becd; --faint:#7d8ba0;
     --green:#3ddc97; --green-dim:rgba(61,220,151,.12);
     --amber:#ffb454; --amber-dim:rgba(255,180,84,.12);
     --red:#ff5d73; --cyan:#54c1ff;
@@ -18,7 +18,7 @@
   }
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}
-  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);line-height:1.6;
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);line-height:1.68;letter-spacing:.005em;-webkit-font-smoothing:antialiased;
     background-image:radial-gradient(ellipse 80% 50% at 50% -10%, rgba(84,193,255,.08), transparent),linear-gradient(var(--bg) 0%, var(--bg2) 100%);}
   a{color:inherit;}
   ::selection{background:var(--green);color:var(--bg);}
@@ -55,49 +55,55 @@
   .pager button:disabled{opacity:.3;cursor:not-allowed;}
   .pager .prog{font-family:var(--mono);font-size:11px;color:var(--faint);letter-spacing:.1em;}
   .pager .prog b{color:var(--green);}
-  .cover{min-height:calc(100vh - 178px);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative;}
+  .cover{min-height:calc(100vh - 130px);padding-top:16px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;position:relative;}
   .orb{position:absolute;border-radius:50%;pointer-events:none;}
   .orb.o1{width:540px;height:540px;top:-160px;right:-140px;background:radial-gradient(circle,rgba(61,220,151,.1) 0%,transparent 70%);animation:drift1 16s ease-in-out infinite;}
   .orb.o2{width:460px;height:460px;bottom:-140px;left:-120px;background:radial-gradient(circle,rgba(84,193,255,.1) 0%,transparent 70%);animation:drift2 20s ease-in-out infinite;}
   @keyframes drift1{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(-60px,50px) scale(1.12);}}
   @keyframes drift2{0%,100%{transform:translate(0,0) scale(1);}50%{transform:translate(70px,-40px) scale(1.08);}}
-  .cover .sys{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--faint);text-transform:uppercase;margin-bottom:28px;}
-  .photo-ring{position:relative;width:200px;height:200px;margin-bottom:30px;}
+  .cover .sys{font-family:var(--mono);font-size:12px;letter-spacing:.12em;color:var(--faint);text-transform:uppercase;margin-bottom:14px;}
+  .photo-ring{position:relative;width:158px;height:158px;margin-bottom:18px;}
   .photo-ring::before{content:"";position:absolute;inset:-6px;border-radius:50%;background:conic-gradient(from 0deg,var(--green),var(--cyan),transparent 40%,transparent 60%,var(--green));filter:blur(1px);animation:spin 8s linear infinite;}
   @keyframes spin{to{transform:rotate(360deg);}}
   .photo-ring .ph{position:absolute;inset:0;border-radius:50%;overflow:hidden;border:4px solid var(--bg);background:var(--panel);box-shadow:0 24px 60px rgba(0,0,0,.6);}
   .photo-ring img{width:100%;height:100%;object-fit:cover;display:block;}
-  h1.name{font-family:var(--display);font-weight:700;font-size:clamp(40px,8vw,76px);line-height:1.02;letter-spacing:-.03em;margin:0 0 12px;
+  h1.name{font-family:var(--display);font-weight:700;font-size:clamp(44px,8vw,78px);line-height:1.0;letter-spacing:-.03em;margin:0 0 12px;
     background:linear-gradient(100deg,#fff 20%,var(--cyan) 50%,var(--green) 80%);background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sheen 6s linear infinite;}
   @keyframes sheen{to{background-position:200% center;}}
-  .cover .role{font-family:var(--mono);font-size:clamp(13px,2vw,15px);color:var(--dim);margin:0 0 22px;}
-  .cover .sub{font-size:15px;color:#b9c4d4;max-width:60ch;margin:0 auto 30px;border-top:1px solid var(--line);padding-top:22px;}
-  .stat-row{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-bottom:32px;}
-  .stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 20px;min-width:120px;position:relative;overflow:hidden;}
+  .cover .role{font-family:var(--mono);font-size:clamp(12px,2vw,14px);color:var(--green);margin:0 0 16px;letter-spacing:.04em;}
+  .cover .pitch{font-family:var(--display);font-weight:600;font-size:clamp(22px,3.4vw,34px);line-height:1.25;letter-spacing:-.01em;color:var(--text);max-width:22ch;margin:0 auto 16px;}
+  .cover .pitch b{background:linear-gradient(100deg,var(--green),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent;}
+  .cover .sub{font-size:15.5px;color:#dbe3ee;max-width:60ch;margin:0 auto 18px;border-top:1px solid var(--line);padding-top:16px;line-height:1.65;}
+  .toolstrip{display:flex;gap:7px;flex-wrap:wrap;justify-content:center;margin-bottom:18px;}
+  .toolstrip span{font-family:var(--mono);font-size:11px;color:var(--dim);background:var(--panel);border:1px solid var(--line2);border-radius:100px;padding:5px 12px;}
+  .stat-row{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-bottom:24px;}
+  .stat{background:var(--panel);border:1px solid var(--line2);border-radius:14px;padding:16px 22px;min-width:124px;position:relative;overflow:hidden;}
   .stat::after{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--green),var(--cyan));opacity:.7;}
-  .stat .num{font-family:var(--display);font-weight:700;font-size:28px;} .stat .num .s{color:var(--green);}
-  .stat .lab{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-top:3px;}
+  .stat .num{font-family:var(--display);font-weight:700;font-size:32px;} .stat .num .s{color:var(--green);}
+  .stat .lab{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--dim);margin-top:5px;}
   .cover .cta{margin-top:6px;font-family:var(--mono);font-size:13px;color:var(--faint);}
   .cover .cta b{color:var(--green);}
   .page-tag{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin-bottom:8px;}
   .page-title{font-family:var(--display);font-weight:600;font-size:clamp(28px,4.5vw,40px);letter-spacing:-.01em;margin:0 0 6px;}
-  .page-lead{font-size:16px;color:#b9c4d4;max-width:70ch;margin:0 0 30px;}
+  .page-lead{font-size:16.5px;color:#cdd6e2;max-width:68ch;margin:0 0 30px;line-height:1.6;}
   .rule{height:1px;background:linear-gradient(90deg,var(--line2),transparent);margin:28px 0;}
-  .meta-chip{font-family:var(--mono);font-size:12.5px;color:var(--dim);text-decoration:none;border:1px solid var(--line);border-radius:100px;padding:8px 16px;background:rgba(17,26,43,.6);transition:all .2s;display:inline-flex;align-items:center;gap:7px;}
+  .meta-chip{font-family:var(--mono);font-size:13px;color:var(--text);text-decoration:none;border:1px solid var(--line);border-radius:100px;padding:8px 16px;background:rgba(17,26,43,.6);transition:all .2s;display:inline-flex;align-items:center;gap:7px;}
   a.meta-chip:hover{border-color:var(--green);color:var(--text);box-shadow:0 0 16px rgba(61,220,151,.25);transform:translateY(-2px);}
   .meta-chip.cta{background:var(--green);color:var(--bg);border-color:var(--green);font-weight:600;}
   .xp{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px 26px;margin-bottom:16px;transition:all .25s;}
   .xp:hover{border-color:var(--line2);transform:translateY(-3px);box-shadow:0 18px 40px rgba(0,0,0,.4);}
   .xp .top{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
   .xp h3{font-family:var(--display);font-size:18px;font-weight:600;margin:0;}
-  .xp .place{font-family:var(--mono);font-size:12.5px;color:var(--cyan);margin:0 0 12px;}
+  .xp .place{font-family:var(--mono);font-size:12.5px;color:var(--cyan);margin:0 0 10px;}
+  .xp .ctx{font-size:13.5px;color:var(--dim);margin:0 0 12px;font-style:italic;}
+  .xp b{color:var(--text);}
   .xp ul{margin:0;padding-left:18px;color:#b9c4d4;} .xp li{margin-bottom:6px;} .xp li::marker{color:var(--green);}
   .pill{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:4px 11px;border-radius:100px;display:inline-flex;align-items:center;gap:6px;border:1px solid;}
   .pill.green{color:var(--green);border-color:rgba(61,220,151,.4);background:var(--green-dim);}
   .pill.amber{color:var(--amber);border-color:rgba(255,180,84,.4);background:var(--amber-dim);}
   .pill .dot{width:6px;height:6px;border-radius:50%;background:currentColor;box-shadow:0 0 8px currentColor;}
   .proj-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:6px;}
-  .proj-id{font-family:var(--mono);font-size:13px;color:var(--faint);letter-spacing:.1em;}
+  .proj-id{font-family:var(--mono);font-size:13px;color:var(--dim);letter-spacing:.06em;}
   .lifecycle{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:14px 0 22px;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);}
   .lifecycle .stg{padding:4px 10px;border:1px solid var(--line);border-radius:5px;background:var(--panel2);}
   .lifecycle .stg.done{color:var(--green);border-color:rgba(61,220,151,.35);}
@@ -106,8 +112,8 @@
   .block{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin-bottom:16px;}
   .block h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--cyan);margin:0 0 12px;}
   .kv{display:grid;grid-template-columns:150px 1fr;gap:10px 16px;font-size:14px;}
-  .kv .k{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);padding-top:2px;}
-  .kv .v{color:#c9d3e0;} .kv .v strong{color:var(--text);}
+  .kv .k{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--green);padding-top:2px;opacity:.9;}
+  .kv .v{color:#dbe3ee;} .kv .v strong{color:#fff;}
   @media (max-width:560px){ .kv{grid-template-columns:1fr;gap:2px 0;} .kv .k{margin-top:8px;} }
   .star{display:flex;flex-direction:column;gap:12px;}
   .star-row{display:grid;grid-template-columns:104px 1fr;gap:12px;}
@@ -137,18 +143,34 @@
   .lightbox img{max-width:100%;max-height:100%;border-radius:8px;border:1px solid var(--line2);}
   .method{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px dashed var(--line);}
   .method .ai{color:var(--cyan);}
-  .chip-group{margin-bottom:26px;}
-  .chip-label{font-family:var(--mono);font-size:11px;color:var(--green);text-transform:uppercase;letter-spacing:.12em;margin-bottom:12px;}
+
+  .road-card{background:var(--panel);border:1px solid var(--line2);border-radius:16px;padding:26px 28px;margin-bottom:20px;transition:all .25s;}
+  .road-card:hover{border-color:rgba(61,220,151,.4);transform:translateY(-3px);box-shadow:0 18px 44px rgba(0,0,0,.4);}
+  .road-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;margin-bottom:14px;}
+  .road-top>div{display:flex;align-items:baseline;gap:14px;}
+  .road-num{font-family:var(--display);font-weight:700;font-size:34px;color:var(--line2);line-height:1;}
+  .road-top h3{font-family:var(--display);font-weight:600;font-size:clamp(18px,2.6vw,23px);margin:0;color:var(--text);}
+  .road-desc{font-size:15px;color:#cdd6e2;line-height:1.65;margin:0 0 16px;}
+  .road-desc strong{color:var(--text);}
+  .road-tags{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:16px;}
+  .road-tags span{font-family:var(--mono);font-size:12px;color:var(--text);background:var(--bg2);border:1px solid var(--line2);border-radius:6px;padding:5px 12px;}
+  .road-why{font-size:13.5px;color:var(--green);background:var(--green-dim);border-radius:8px;padding:12px 15px;margin:0;line-height:1.55;}
+  .road-foot{font-size:14px;color:var(--dim);text-align:center;margin-top:26px;font-style:italic;}
+  .chip-group{margin-bottom:30px;}
+  .chip-row{gap:11px;}
+  .chip-label{font-family:var(--mono);font-size:11.5px;font-weight:600;color:var(--green);text-transform:uppercase;letter-spacing:.14em;margin-bottom:13px;}
   .chip-row{display:flex;flex-wrap:wrap;gap:10px;}
-  .chip{font-family:var(--mono);font-size:12.5px;padding:8px 15px;border:1px solid var(--line);border-radius:8px;color:var(--dim);background:var(--panel);transition:all .2s;cursor:default;}
-  .chip:hover{transform:translateY(-3px);border-color:var(--green);color:var(--text);box-shadow:0 6px 18px rgba(61,220,151,.15);}
+  .chip{font-family:var(--body);font-weight:500;font-size:13.5px;padding:9px 16px;border:1px solid var(--line2);border-radius:8px;color:var(--text);background:var(--panel);transition:all .2s;cursor:default;}
+  .chip:hover{transform:translateY(-2px);border-color:var(--green);box-shadow:0 6px 18px rgba(61,220,151,.18);}
+  .chip.key{border-color:rgba(61,220,151,.4);background:var(--green-dim);color:var(--text);}
   .edu-row{display:flex;justify-content:space-between;gap:16px;padding:18px 22px;border:1px solid var(--line);border-radius:12px;margin-bottom:12px;flex-wrap:wrap;background:var(--panel);}
   .edu-row .school{font-family:var(--display);font-weight:600;font-size:16px;}
   .edu-row .degree{font-size:13.5px;color:var(--dim);}
   .edu-row .dates{font-family:var(--mono);font-size:12px;color:var(--faint);}
   .contact-box{background:linear-gradient(140deg,var(--panel) 0%,#0e1a2b 100%);border:1px solid var(--line2);border-radius:18px;padding:52px 40px;text-align:center;}
   .contact-box h2{font-family:var(--display);font-weight:600;font-size:clamp(24px,4vw,34px);margin:0 0 12px;}
-  .contact-box p{color:var(--dim);margin:0 auto 28px;max-width:52ch;}
+  .contact-box p{color:var(--text);opacity:.9;margin:0 auto 28px;max-width:54ch;line-height:1.65;}
+  .close-badge{display:inline-block;font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--green);background:var(--green-dim);border:1px solid rgba(61,220,151,.3);border-radius:100px;padding:7px 16px;margin-bottom:20px;}
   .contact-actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;}
 </style>
 </head>
@@ -161,34 +183,39 @@
 <div class="book" id="book"><div class="track" id="track">
   <section class="page active" data-title="Cover"><div class="page-inner cover">
     <div class="orb o1"></div><div class="orb o2"></div>
-    <div class="sys">KG-001 // PCO Candidate File</div>
+    <div class="sys">Project Control Officer · Toronto, ON · Open to work</div>
     <div class="photo-ring"><div class="ph"><img src="Keshav_pic.jpg" alt="Keshaav Gite"></div></div>
     <h1 class="name">Keshaav Gite</h1>
-    <p class="role">Project Coordinator / Project Control Officer — PMP, CSM</p>
-    <p class="sub">PMP- and CSM-certified Project Coordinator with 4+ years in delivery, governance and reporting across BFSI and analytics — S&amp;P Global, MSCI, BNY Mellon. Page through three complete projects, each built end to end.</p>
+    <p class="role">PROJECT COORDINATOR / PCO — PMP · CSM</p>
+    <p class="pitch">I keep regulated, multi-million-dollar programs <b>on schedule, on budget, and audit-ready.</b></p>
+    <p class="sub">4+ years keeping regulated programs honest &mdash; governance, cost control and executive reporting at S&amp;P Global, MSCI and BNY Mellon. My job is to see the whole picture: not just what has been spent, but the committed dollars a surface report misses &mdash; and to give leadership the truth early, while there is still time to act.</p>
     <div class="stat-row">
-      <div class="stat"><div class="num"><span class="count" data-t="4">0</span><span class="s">+</span></div><div class="lab">Years</div></div>
+      <div class="stat"><div class="num"><span class="count" data-t="4">0</span><span class="s">+</span></div><div class="lab">Years in Delivery</div></div>
       <div class="stat"><div class="num">$<span class="count" data-t="1.26" data-dec="2">0</span><span class="s">M</span></div><div class="lab">Project Controlled</div></div>
-      <div class="stat"><div class="num"><span class="count" data-t="3">0</span></div><div class="lab">Full Projects</div></div>
-      <div class="stat"><div class="num">$<span class="count" data-t="10.8" data-dec="1">0</span><span class="s">M</span></div><div class="lab">Program</div></div>
+      <div class="stat"><div class="num"><span class="count" data-t="10">0</span><span class="s">+</span></div><div class="lab">Workstreams Run</div></div>
+      <div class="stat"><div class="num">$<span class="count" data-t="3.2" data-dec="1">0</span><span class="s">M</span></div><div class="lab">Program Reported</div></div>
     </div>
-    <p class="cta">Use <b>Next →</b> below, the chapters up top, or your <b>arrow keys</b> to page through.</p>
+    <p class="cta">A live cost-control project below — <b>Next →</b>, chapter tabs, or <b>arrow keys</b> to explore.</p>
   </div></section>
   <section class="page" data-title="Experience"><div class="page-inner">
-    <p class="page-tag">Chapter 01</p><h2 class="page-title">Experience</h2>
-    <p class="page-lead">Four roles across banking, financial services and analytics — all delivered, all governance-heavy.</p>
+    <p class="page-tag">Chapter 01 · Track Record</p><h2 class="page-title">Where I've delivered</h2>
+    <p class="page-lead">Nine years in project delivery and financial operations — the last four running governance, cost and reporting on regulated BFSI programs at three global institutions.</p>
     <div class="xp"><div class="top"><h3>Project Controls Coordinator</h3><span class="pill green"><span class="dot"></span>Delivered</span></div>
       <p class="place">C2 Prep — Brampton, Canada · Oct 2025 – Jan 2026</p>
-      <ul><li>Cut resolution time 20% by re-engineering the delivery intake and coordination workflow.</li><li>Replaced fragmented documentation with one version-controlled, audit-ready repository.</li></ul></div>
+      <p class="ctx">Owned delivery coordination and documentation governance across concurrent client engagements.</p>
+      <ul><li><b>Cut issue-resolution time 20%</b> by re-engineering the intake-to-resolution workflow and tightening escalation paths.</li><li>Replaced scattered trackers with <b>one version-controlled, audit-ready repository</b> — a single source of truth across teams.</li></ul></div>
     <div class="xp"><div class="top"><h3>Project Coordinator — Reporting &amp; Governance</h3><span class="pill green"><span class="dot"></span>Delivered</span></div>
       <p class="place">S&amp;P Global — Hyderabad, India · Mar 2022 – Dec 2022</p>
-      <ul><li>Consolidated 10+ workstreams on a ~$3.2M program, cutting reporting turnaround ~30%.</li><li>Maintained enterprise RAID logs through structured escalation.</li></ul></div>
+      <p class="ctx">PCO on a <b>~$3.2M</b> program spanning 10+ concurrent workstreams, reporting into steering.</p>
+      <ul><li>Consolidated status from <b>10+ workstreams</b> into one steering pack, <b>cutting reporting turnaround ~30%</b>.</li><li>Ran the enterprise <b>RAID log and escalation cadence</b> — closing cross-team dependencies faster and keeping leadership ahead of risk.</li></ul></div>
     <div class="xp"><div class="top"><h3>Project Coordinator — Reporting &amp; Compliance Ops</h3><span class="pill green"><span class="dot"></span>Delivered</span></div>
       <p class="place">SG Analytics (MSCI) — Mumbai, India · Jan 2018 – Feb 2022</p>
-      <ul><li>Cut manual reporting effort 40%, then a further 20–30% via standardized frameworks.</li><li>Built executive dashboards for real-time project health and delivery risk.</li></ul></div>
+      <p class="ctx">Reporting and compliance operations for a global index &amp; analytics provider.</p>
+      <ul><li>Automated recurring reporting to <b>cut manual effort 40%</b>, then standardized frameworks for a <b>further 20–30%</b> saving.</li><li>Built <b>executive dashboards</b> giving leadership real-time visibility into project health, financial performance and delivery risk.</li></ul></div>
     <div class="xp"><div class="top"><h3>Operations Executive</h3><span class="pill green"><span class="dot"></span>Delivered</span></div>
       <p class="place">BNY Mellon — Pune, India · Dec 2016 – Nov 2017</p>
-      <ul><li>Fund accounting and portfolio reporting — NAV support, invoicing, reconciliation.</li></ul></div>
+      <p class="ctx">Fund accounting and portfolio reporting for institutional asset-management clients.</p>
+      <ul><li>Ran <b>NAV support, invoicing and reconciliation</b> — resolving cash, trade and position discrepancies to tight daily deadlines.</li></ul></div>
   </div></section>
   <section class="page" data-title="Project 1"><div class="page-inner">
     <p class="page-tag">Chapter 02 · Project One</p>
@@ -245,104 +272,66 @@
     <div class="method"><span class="ai">◆ Method:</span> AI-assisted drafting · three-gate human verification · 145 formulas, zero errors</div>
   </div></section>
 
-  <section class="page" data-title="Project 2"><div class="page-inner">
-    <p class="page-tag">Chapter 03 · Project Two</p>
-    <div class="proj-head"><h2 class="page-title">Core Banking Modernization — Control Pack</h2><span class="pill green"><span class="dot"></span>Done</span></div>
-    <div class="proj-id">PRJ-02 · Banking · Northbridge Financial Group (fictional) · $10.83M · 18 months</div>
-    <div class="lifecycle"><span class="stg done">Charter</span><span class="arr">→</span><span class="stg done">RAID &amp; change control</span><span class="arr">→</span><span class="stg done">Budget · forecast · accruals</span><span class="arr">→</span><span class="stg done">Data reconciliation</span><span class="arr">→</span><span class="stg done">Dashboard</span></div>
-    <div class="block"><h4>Charter at a glance</h4><div class="kv">
-      <span class="k">Client</span><span class="v">Northbridge Financial Group — mid-size Canadian bank, ~410K customers</span>
-      <span class="k">Problem</span><span class="v">Legacy core change-resistant, vendor support ends 2028, OSFI B-13 strain.</span>
-      <span class="k">Objective</span><span class="v">Migrate all data at <strong>≤0.5% rejects</strong>, no customer disruption, unbroken OSFI/FINTRAC reporting.</span>
-      <span class="k">Budget</span><span class="v"><strong>$10.83M</strong> across 5 categories · Jan 2026 – Jun 2027</span>
-      <span class="k">My role</span><span class="v">PCO — full program governance</span></div></div>
-    <div class="block"><h4>The story (STAR)</h4><div class="star">
-      <div class="star-row s"><span class="k">Situation</span><span class="v">An 18-month, ~$10.8M core replacement — ~970K records to migrate without losing a balance.</span></div>
-      <div class="star-row r2"><span class="k">My role</span><span class="v">Full governance pack: RAID, change control, <strong>budget/forecast/accruals</strong>, data reconciliation, steering status &amp; live dashboard.</span></div>
-      <div class="star-row h"><span class="k">Hurdles</span><span class="v">Mock conversion 1 rejected <strong>3.2% of loans</strong> (rounding mismatch — remediated to 0.40%, evidenced); UAT collided with RRSP season (window moved via CR); regulator added OSFI B-13 fields mid-flight (Critical CR).</span></div>
-      <div class="star-row res"><span class="k">Result</span><span class="v">One internally consistent pack — every tab cross-references. Schedule Amber reported honestly with a recovery plan; budget &amp; scope Green.</span></div></div></div>
-    <div class="block"><h4>Documents in this workbook (8 tabs)</h4><div class="docs-grid">
-      <div class="doc"><div class="n">Charter</div><div class="d">$10.83M, 8 stakeholders</div></div>
-      <div class="doc"><div class="n">RAID Log</div><div class="d">12 banking items</div></div>
-      <div class="doc"><div class="n">Change Control</div><div class="d">8 CRs incl. Critical + Rejected</div></div>
-      <div class="doc"><div class="n">Action Register</div><div class="d">7 items, ID-linked</div></div>
-      <div class="doc"><div class="n">Budget &amp; Forecast</div><div class="d">variance as live formula</div></div>
-      <div class="doc"><div class="n">Accruals Log</div><div class="d">month-end, with reversals</div></div>
-      <div class="doc"><div class="n">Data Reconciliation</div><div class="d">970K records, reject %</div></div>
-      <div class="doc"><div class="n">Status &amp; Dashboard</div><div class="d">COUNTIFS KPIs + charts</div></div></div></div>
-    <div class="files-row">
-      <a class="file-link raw" href="files/PRJ-02-Blank-Template.xlsx" download>⚠ Blank template — before (.xlsx)</a>
-      <a class="file-link" href="files/PRJ-02-Northbridge-Project-Control-Pack.xlsx" download>⭳ Full control pack — after (.xlsx)</a></div>
-    <div class="shots-row">
-      <div class="shot-frame" data-src="screenshots/prj-02-1.jpg" data-alt="RAID"><span class="hint">RAID log<code>screenshots/prj-02-1.jpg</code></span></div>
-      <div class="shot-frame" data-src="screenshots/prj-02-2.jpg" data-alt="Dashboard"><span class="hint">Excel dashboard<code>screenshots/prj-02-2.jpg</code></span></div>
-      <div class="shot-frame" data-src="screenshots/prj-02-3.jpg" data-alt="Power BI"><span class="hint">Power BI dashboard<code>screenshots/prj-02-3.jpg</code></span></div></div>
-    <div class="method"><span class="ai">◆ Method:</span> AI-assisted drafting · three-gate human verification · zero formula errors</div>
-  </div></section>
-  <section class="page" data-title="Project 3"><div class="page-inner">
-    <p class="page-tag">Chapter 04 · Project Three</p>
-    <div class="proj-head"><h2 class="page-title">D365 Finance Implementation</h2><span class="pill amber"><span class="dot"></span>In Development</span></div>
-    <div class="proj-id">PRJ-03 · IT / ERP · Halton Technology Services (fictional) · $850K · 6 months · full SDLC</div>
-    <div class="lifecycle"><span class="stg done">Charter</span><span class="arr">→</span><span class="stg done">Design sign-off</span><span class="arr">→</span><span class="stg done">Build / migration</span><span class="arr">→</span><span class="stg now">Test / UAT</span><span class="arr">→</span><span class="stg">Deploy / cutover</span><span class="arr">→</span><span class="stg">Hypercare</span></div>
-    <div class="block"><h4>Charter at a glance</h4><div class="kv">
-      <span class="k">Client</span><span class="v">Halton Technology Services — ~400-person IT firm</span>
-      <span class="k">Problem</span><span class="v">12-day month-end close, email invoice approvals with no audit trail, no project-level reporting.</span>
-      <span class="k">Objective</span><span class="v">Implement D365 Finance as the single system for GL, AP &amp; vendors — <strong>close cut 12 → 5 days</strong>, approval trail on every invoice.</span>
-      <span class="k">Budget</span><span class="v"><strong>$850K</strong> · 6 months · partner-delivered</span>
-      <span class="k">My role</span><span class="v">Client-side PCO across the <strong>full SDLC</strong></span></div></div>
-    <div class="block"><h4>SDLC — what a PCO does in each phase</h4><div class="kv">
-      <span class="k">Design</span><span class="v">Track design-document sign-offs (unsigned design = the #1 cause of later disputes).</span>
-      <span class="k">Build</span><span class="v">Own the 3 data-load reconciliations — vendor master, open AP, GL opening balances.</span>
-      <span class="k">Test / UAT</span><span class="v">Maintain the test &amp; defect tracker; chase business sign-offs before go/no-go.</span>
-      <span class="k">Deploy</span><span class="v">Own the cutover runbook — minute-by-minute plan, owners, rollback triggers.</span>
-      <span class="k">Hypercare</span><span class="v">Run the post-go-live issue log; track severity-1 defects to zero.</span></div></div>
-    <div class="block"><h4>The story (STAR)</h4><div class="star">
-      <div class="star-row s"><span class="k">Situation</span><span class="v">A ~400-person firm on aging finance software: 12-day close, no invoice audit trail. Fix: implement D365 Finance — board-announced go-live.</span></div>
-      <div class="star-row r2"><span class="k">My role</span><span class="v">Client-side PCO across the full SDLC: design sign-offs, <strong>3 data-load reconciliations</strong>, UAT tracker, cutover runbook, hypercare — plus the D365 flows UAT validates, executed hands-on.</span></div>
-      <div class="star-row h"><span class="k">Hurdles</span><span class="v">Vendor master ~18% duplicates (incl. same-vendor-different-ID); GL opening balances didn't balance (suspense line — blocked go-live); key AP clerk resigned mid-UAT; partner wanted to compress UAT — pushed back via CR with defect-rate evidence.</span></div>
-      <div class="star-row res"><span class="k">Result</span><span class="v">Scenario: go-live +2 weeks (sponsor-approved), <strong>zero sev-1 in hypercare, close cut 12 → 5 days</strong>. Hands-on D365 evidence in progress.</span></div></div></div>
-    <div class="block"><h4>Documents (6)</h4><div class="docs-grid">
-      <div class="doc"><div class="n">Charter &amp; SDLC plan</div><div class="d">phases, stakeholders, budget</div></div>
-      <div class="doc"><div class="n">Migration workbook</div><div class="d">vendor · AP · GL, reconciled</div></div>
-      <div class="doc"><div class="n">RAID Log</div><div class="d">implementation risks</div></div>
-      <div class="doc"><div class="n">UAT Tracker</div><div class="d">cases, defects, sign-off</div></div>
-      <div class="doc"><div class="n">Cutover Runbook</div><div class="d">go-live plan + rollback</div></div>
-      <div class="doc"><div class="n">D365 evidence</div><div class="d">hands-on screenshots</div></div></div></div>
-    <div class="files-row">
-      <a class="file-link raw" href="files/PRJ-03-Halton-D365-Charter-and-Plan.pdf" download>⚠ Charter &amp; SDLC plan (.pdf)</a>
-      <a class="file-link raw" href="files/PRJ-03-Raw-Vendor-Master.csv" download>⚠ Raw vendor master (.csv)</a>
-      <a class="file-link raw" href="files/PRJ-03-Raw-Open-AP-Invoices.csv" download>⚠ Raw open AP (.csv)</a>
-      <a class="file-link raw" href="files/PRJ-03-Raw-GL-Opening-Balances.csv" download>⚠ Raw GL balances (.csv)</a></div>
-    <div class="shots-row">
-      <div class="shot-frame" data-src="screenshots/prj-03-1.jpg" data-alt="D365"><span class="hint">D365 module<code>screenshots/prj-03-1.jpg</code></span></div></div>
-    <div class="method"><span class="ai">◆ Method:</span> AI-assisted drafting · hands-on D365 evidence (screenshots) — AI cannot fake it</div>
+  <section class="page" data-title="Roadmap"><div class="page-inner">
+    <p class="page-tag">Chapters 03–04 · What&rsquo;s next</p>
+    <h2 class="page-title">The portfolio roadmap</h2>
+    <p class="page-lead">Project One is built end to end. Two more are in active development — each targeting a specific, in-demand PCO capability, built to the same bank-grade standard you just saw.</p>
+
+    <div class="road-card">
+      <div class="road-top">
+        <div><span class="road-num">02</span><h3>Resource Capacity &amp; Project Operations</h3></div>
+        <span class="pill amber"><span class="dot"></span>In Development</span>
+      </div>
+      <p class="road-desc">A PMO running a portfolio of projects in <strong>Dynamics 365 Project Operations</strong> — capacity planning, resource allocation and utilization reporting, with a Power BI analytics layer and a Power Automate status-collection flow.</p>
+      <div class="road-tags"><span>D365 Project Operations</span><span>Resource Capacity Planning</span><span>Allocation Tracking</span><span>Power BI</span><span>Power Automate</span></div>
+      <p class="road-why">Why it matters: hands-on D365 Project Operations plus resource management is the single most-requested skill in current PCO / PMO analyst postings.</p>
+    </div>
+
+    <div class="road-card">
+      <div class="road-top">
+        <div><span class="road-num">03</span><h3>D365 Finance Implementation — Full SDLC</h3></div>
+        <span class="pill amber"><span class="dot"></span>In Development</span>
+      </div>
+      <p class="road-desc">A client-side PCO on an ERP implementation across the <strong>full delivery lifecycle</strong> — design sign-offs, three data-migration reconciliations (vendor master, open AP, GL opening balances), a UAT &amp; defect tracker, cutover runbook and hypercare.</p>
+      <div class="road-tags"><span>SDLC Coordination</span><span>Data Migration &amp; Reconciliation</span><span>UAT &amp; Cutover</span><span>Hypercare</span><span>D365 Finance</span></div>
+      <p class="road-why">Why it matters: proves I can run the messy, real work of an ERP go-live — the reconciliations and sign-offs that decide whether a cutover succeeds.</p>
+    </div>
+
+    <p class="road-foot">Both are being built with real tooling and hands-on evidence — the same way Project One was. Check back, or ask me for a walkthrough of where they stand.</p>
   </div></section>
   <section class="page" data-title="Skills"><div class="page-inner">
-    <p class="page-tag">Chapter 05</p><h2 class="page-title">Certifications &amp; Skills</h2>
-    <p class="page-lead">The toolkit behind the delivery — spanning governance, financial control, IT/SDLC, and modern BI.</p>
+    <p class="page-tag">Chapter 04 · Capability</p><h2 class="page-title">What I bring to the desk</h2>
+    <p class="page-lead">Governance and cost-control fundamentals, the delivery toolchain a bank actually runs on, and the credentials to back them.</p>
+
     <div class="chip-group"><div class="chip-label">Certifications</div><div class="chip-row">
-      <span class="chip">PMP</span><span class="chip">CSM — Certified ScrumMaster</span><span class="chip">SAP Analysis for MS Office</span></div></div>
-    <div class="chip-group"><div class="chip-label">Competencies</div><div class="chip-row">
-      <span class="chip">Project Coordination</span><span class="chip">PMO Governance &amp; Reporting</span><span class="chip">RAID &amp; Risk/Issue Management</span><span class="chip">Change Control</span><span class="chip">Budget · Forecast · Accruals</span><span class="chip">Data &amp; Migration Reconciliation</span><span class="chip">Status &amp; Steering Reporting</span><span class="chip">SDLC Coordination</span><span class="chip">UAT &amp; Cutover Management</span><span class="chip">Stakeholder Management</span></div></div>
-    <div class="chip-group"><div class="chip-label">Tools</div><div class="chip-row">
-      <span class="chip">Excel (Pivot, VLOOKUP/XLOOKUP, COUNTIFS)</span><span class="chip">Power BI (Power Query, DAX)</span><span class="chip">Dynamics 365 Finance</span><span class="chip">Jira (Kanban &amp; Scrum)</span><span class="chip">MS Project</span><span class="chip">SharePoint</span><span class="chip">MS PowerPoint</span></div></div>
-    <div class="chip-group"><div class="chip-label">AI-Augmented Workflow</div><div class="chip-row">
-      <span class="chip">AI-assisted drafting (human-verified)</span><span class="chip">Copilot for M365</span><span class="chip">Three-gate verification standard</span><span class="chip">AI data-governance awareness</span></div></div>
+      <span class="chip key">PMP</span><span class="chip key">CSM — Certified ScrumMaster</span><span class="chip">SAP Analysis for MS Office</span></div></div>
+
+    <div class="chip-group"><div class="chip-label">Core PCO Strengths</div><div class="chip-row">
+      <span class="chip key">Cost Control &amp; EAC Forecasting</span><span class="chip key">RAID &amp; Risk Management</span><span class="chip key">Change Control</span><span class="chip key">Steering &amp; Status Reporting</span><span class="chip key">Stakeholder Management</span><span class="chip">Budget · Forecast · Accruals</span><span class="chip">PMO Governance</span></div></div>
+
+    <div class="chip-group"><div class="chip-label">Delivery Toolchain</div><div class="chip-row">
+      <span class="chip key">MS Project</span><span class="chip key">Power BI <span style="opacity:.65">· Power Query, DAX</span></span><span class="chip key">Dynamics 365</span><span class="chip key">Excel <span style="opacity:.65">· Pivot, XLOOKUP, SUMIFS</span></span><span class="chip">Jira <span style="opacity:.65">· Kanban &amp; Scrum</span></span><span class="chip">SharePoint</span></div></div>
+
+    <div class="chip-group"><div class="chip-label">Lifecycle &amp; Domain</div><div class="chip-row">
+      <span class="chip">SDLC Coordination</span><span class="chip">UAT &amp; Cutover</span><span class="chip">Data &amp; Migration Reconciliation</span><span class="chip">BFSI / Regulated Delivery</span><span class="chip">OSFI B-13 Awareness</span></div></div>
+
     <div class="rule"></div>
-    <p class="chip-label" style="color:var(--faint)">Education</p>
-    <div class="edu-row"><div><div class="school">Algoma University</div><div class="degree">Graduate Certificate in Project Management, Canada</div></div><div class="dates">May 2023 – Jan 2025</div></div>
-    <div class="edu-row"><div><div class="school">Mumbai University</div><div class="degree">Master of Business Administration, India</div></div><div class="dates">May 2012 – Feb 2015</div></div>
+    <p class="chip-label" style="color:var(--dim)">Education</p>
+    <div class="edu-row"><div><div class="school">Algoma University</div><div class="degree">Graduate Certificate in Project Management — Canada</div></div><div class="dates">2023 – 2025</div></div>
+    <div class="edu-row"><div><div class="school">Mumbai University</div><div class="degree">Master of Business Administration — India</div></div><div class="dates">2012 – 2015</div></div>
   </div></section>
   <section class="page" data-title="Contact"><div class="page-inner">
-    <p class="page-tag">Chapter 06</p><h2 class="page-title">Contact</h2>
-    <p class="page-lead">Open to Project Coordinator / PCO / PMO roles across BFSI, ERP, and analytics — bringing governance that holds up under scrutiny from day one.</p>
-    <div class="contact-box"><h2>Let's talk about your next program.</h2>
-      <p>Toronto, ON · reachable by email, phone, or LinkedIn.</p>
+    <p class="page-tag">Chapter 05 · Let&rsquo;s talk</p><h2 class="page-title">Ready to control your next program</h2>
+    <p class="page-lead">You just paged through a project I ran end to end — schedule, cost, governance and reporting, in the tools your PMO already uses. I can do the same for yours.</p>
+    <div class="contact-box">
+      <div class="close-badge">Open to work · Toronto, ON · hybrid or remote</div>
+      <h2>Let&rsquo;s talk about your next program.</h2>
+      <p>Project Coordinator / PCO / PMO roles across BFSI, ERP and analytics. I bring governance that holds up under audit — and status reports leadership can trust without re-checking.</p>
       <div class="contact-actions">
-        <a class="meta-chip cta" href="mailto:keshavg0876@gmail.com">Email Me →</a>
+        <a class="meta-chip cta" href="mailto:keshavg0876@gmail.com">Email me →</a>
         <a class="meta-chip" href="tel:+14373315861">(437) 331-5861</a>
         <a class="meta-chip" href="https://linkedin.com/in/kgite0876" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="meta-chip" href="Resume.pdf" target="_blank" rel="noopener">Download Resume</a></div></div>
+        <a class="meta-chip" href="Resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a></div></div>
   </div></section>
 </div></div>
 <div class="pager"><div class="pager-inner">
