@@ -1,0 +1,115 @@
+Posting Date,Voucher,Vendor ID,Vendor Name,Invoice No,PO Ref,Cost Category,Description,Amount,Currency,Status
+2026-04-19,AP-500020,V-10166,Vantage Consulting Associates,INV-8819,PO-2026-1032,Contractor Labour,Senior developer - monthly,14377.74,CAD,Posted
+2026-08-28,GJ-500110,,(Internal journal),,,Internal Labour,Internal labour recharge - monthly,23548.67,CAD,Posted
+2026-07-17,AP-500084,V-10133,Keystone Training Partners,INV-8883,PO-2026-1017,Training & Change,End-user training materials,1378.95,CAD,Posted
+2026-01-24,AP-500034,V-10102,Northgate Software Licensing,INV-8833,PO-2026-1062,Software Licences,API gateway licence,12883.3,CAD,Posted
+2026-07-11,AP-500028,V-10078,Ironwood Contracting Group,INV-8827,PO-2026-1067,Contractor Labour,Solution architect - part time,14754.12,CAD,Posted
+2026-07-11,AP-500099,V-10150,Harbourview Travel Management,INV-8898,PO-2026-1010,Travel,Vendor site visit,460.75,CAD,Posted
+2026-03-13,AP-500067,V-10044,Cascade Cloud Services Inc,INV-8866,PO-2026-1035,Cloud / Hosting,Compute - monthly usage,2019.1,CAD,Posted
+2026-04-18,AP-500094,V-10150,Harbourview Travel Management,INV-8893,PO-2026-1028,Travel,Vendor site visit,438.8,CAD,Posted
+2026-04-12,AP-500051,V-10119,Summit Hardware Solutions,INV-8850,PO-2026-1020,Hardware & Infra,Storage expansion,6100.62,CAD,Posted
+2026-02-28,GJ-500104,,(Internal journal),,,Internal Labour,Internal labour recharge - monthly,18171.13,CAD,Posted
+2026-07-25,AP-500012,V-10021,Meridian Systems Integration Ltd,INV-8811,PO-2026-1087,SI Partner Fees,Sprint delivery - milestone billing,26526.18,CAD,Posted
+2026-03-25,AP-500006,V-10021,Meridian Systems Integration Ltd,INV-8805,PO-2026-1054,SI Partner Fees,Integration build - phase billing,36944.61,CAD,Posted
+2026-07-28,GJ-500109,,(Internal journal),,,Internal Labour,Internal labour recharge - monthly,23215.93,CAD,Posted
+2026-06-15,AP-500098,V-10150,Harbourview Travel Management,INV-8897,PO-2026-1041,Travel,Onsite integration workshop,297.49,CAD,Posted
+2026-05-20,AP-500008,V-10021,Meridian Systems Integration Ltd,INV-8807,PO-2026-1015,SI Partner Fees,UAT support services,25864.07,CAD,Posted
+2026-08-03,AP-500102,V-10150,Harbourview Travel Management,INV-8901,PO-2026-1079,Travel,Onsite integration workshop,449.64,CAD,Posted
+2026-05-14,AP-500115,V-10102,Northgate Software Licensing,INV-8905,PO-2026-1044,Software Licences,US licence true-up (USD invoice),14900.0,USD,Posted
+2026-02-20,AP-500004,V-10021,Meridian Systems Integration Ltd,INV-8803,PO-2026-1025,SI Partner Fees,Cutover support,9118.08,CAD,Posted
+2026-06-10,AP-500083,V-10133,Keystone Training Partners,INV-8882,PO-2026-1022,Training & Change,Change readiness workshops,527.24,CAD,Posted
+2026-01-09,AP-500016,V-10166,Vantage Consulting Associates,INV-8815,PO-2026-1083,Contractor Labour,Solution architect - part time,4228.79,CAD,Posted
+2026-05-11,AP-500054,V-10119,Summit Hardware Solutions,INV-8853,PO-2026-1036,Hardware & Infra,Network switch upgrade,2242.85,CAD,Posted
+2026-08-26,AP-500114,V-10044,Cascade Cloud Services Inc,INV-8904,PO-2026-1014,Cloud / Hosting,Awaiting approval,5820.0,CAD,Pending
+2026-08-24,AP-500029,V-10166,Vantage Consulting Associates,INV-8828,PO-2026-1083,Contractor Labour,Data migration specialist,9561.23,CAD,Posted
+2026-06-11,AP-500042,V-10102,Northgate Software Licensing,INV-8841,PO-2026-1058,Software Licences,Monitoring suite subscription,7794.0,CAD,Posted
+2026-01-10,AP-500032,V-10102,Northgate Software Licensing,INV-8831,PO-2026-1008,Software Licences,Core platform licence - annual,13873.17,CAD,Posted
+2026-08-22,AP-500062,V-10119,Summit Hardware Solutions,INV-8861,PO-2026-1095,Hardware & Infra,Network switch upgrade,396.9,CAD,Posted
+2026-05-11,AP-500053,V-10119,Summit Hardware Solutions,INV-8852,PO-2026-1014,Hardware & Infra,Application server refresh,1936.31,CAD,Posted
+2026-05-10,AP-500079,V-10133,Keystone Training Partners,INV-8878,PO-2026-1025,Training & Change,Super-user training cohort,203.6,CAD,Posted
+2026-02-04,AP-500065,V-10044,Cascade Cloud Services Inc,INV-8864,PO-2026-1060,Cloud / Hosting,Storage - monthly,1249.07,CAD,Posted
+2026-06-06,AP-500025,V-10078,Ironwood Contracting Group,INV-8824,PO-2026-1046,Contractor Labour,Data migration specialist,9277.27,CAD,Posted
+2026-05-20,AP-500009,V-10021,Meridian Systems Integration Ltd,INV-8808,PO-2026-1037,SI Partner Fees,Cutover support,27884.56,CAD,Posted
+2026-05-28,GJ-500107,,(Internal journal),,,Internal Labour,Internal labour recharge - monthly,23350.91,CAD,Posted
+2026-08-24,AP-500014,V-10021,Meridian Systems Integration Ltd,INV-8813,PO-2026-1041,SI Partner Fees,Sprint delivery - milestone billing,21772.4,CAD,Posted
+2026-02-09,AP-500035,V-10102,Northgate Software Licensing,INV-8834,PO-2026-1012,Software Licences,Core platform licence - annual,2603.16,CAD,Posted
+2026-01-10,AP-500002,V-10021,Meridian Systems Integration Ltd,INV-8801,PO-2026-1017,SI Partner Fees,Sprint delivery - milestone billing,14684.44,CAD,Posted
+2026-02-26,AP-500037,V-10102,Northgate Software Licensing,INV-8836,PO-2026-1006,Software Licences,Core platform licence - annual,2498.84,CAD,Posted
+2026-03-16,AP-500039,V-10102,Northgate Software Licensing,INV-8838,PO-2026-1023,Software Licences,Monitoring suite subscription,2924.58,CAD,Posted
+2026-07-25,AP-500059,V-10119,Summit Hardware Solutions,INV-8858,PO-2026-1019,Hardware & Infra,Application server refresh,1053.8,CAD,Posted
+2026-08-20,AP-500085,V-10133,Keystone Training Partners,INV-8884,PO-2026-1057,Training & Change,Super-user training cohort,651.5,CAD,Posted
+2026-02-14,AP-500018,V-10166,Vantage Consulting Associates,INV-8817,PO-2026-1028,Contractor Labour,QA analyst - monthly,4315.39,CAD,Posted
+2026-06-14,AP-500072,V-10044,Cascade Cloud Services Inc,INV-8871,PO-2026-1055,Cloud / Hosting,Compute - monthly usage,2440.58,CAD,Posted
+2026-03-27,AP-500092,V-10150,Harbourview Travel Management,INV-8891,PO-2026-1073,Travel,Vendor site visit,519.02,CAD,Posted
+2026-01-24,AP-500047,V-10119,Summit Hardware Solutions,INV-8846,,Hardware & Infra,Load balancer appliance,3280.91,CAD,Posted
+2026-07-20,AP-500013,V-10021,Meridian Systems Integration Ltd,INV-8812,PO-2026-1093,SI Partner Fees,Design workshop facilitation,28888.74,CAD,Posted
+2026-08-26,AP-500113,V-10078,Ironwood Contracting Group,INV-8903,PO-2026-1091,Contractor Labour,Awaiting approval,22400.0,CAD,Pending
+2026-06-17,AP-500097,V-10150,Harbourview Travel Management,INV-8896,PO-2026-1023,Travel,Onsite integration workshop,333.65,CAD,Posted
+2026-05-17,AP-500081,V-10133,Keystone Training Partners,INV-8880,PO-2026-1053,Training & Change,Change readiness workshops,239.87,CAD,Posted
+2026-05-19,AP-500023,V-10078,Ironwood Contracting Group,INV-8822,PO-2026-1013,Contractor Labour,Data migration specialist,17172.44,CAD,Posted
+2026-06-04,AP-500026,V-10078,Ironwood Contracting Group,INV-8825,PO-2026-1030,Contractor Labour,Senior developer - monthly,11904.54,CAD,Posted
+2026-07-04,AP-500044,V-10102,Northgate Software Licensing,INV-8843,PO-2026-1006,Software Licences,Test automation licence,2450.7,CAD,Posted
+2026-06-28,GJ-500108,,(Internal journal),,,Internal Labour,Internal labour recharge - monthly,23057.77,CAD,Posted
+2026-03-09,AP-500038,V-10102,Northgate Software Licensing,INV-8837,PO-2026-1068,Software Licences,Test automation licence,3883.13,CAD,Posted
+2026-08-10,AP-500031,V-10078,Ironwood Contracting Group,INV-8830,PO-2026-1008,Contractor Labour,Data migration specialist,9414.38,CAD,Posted
+2026-03-28,GJ-500105,,(Internal journal),,,Internal Labour,Internal labour recharge - monthly,20318.76,CAD,Posted
+2026-04-21,AP-500069,V-10044,Cascade Cloud Services Inc,INV-8868,PO-2026-1033,Cloud / Hosting,Compute - monthly usage,2876.33,CAD,Posted
+2026-08-19,AP-500030,V-10166,Vantage Consulting Associates,INV-8829,PO-2026-1057,Contractor Labour,Senior developer - monthly,9334.29,CAD,Posted
+2026-07-20,AP-500058,V-10119,Summit Hardware Solutions,INV-8857,PO-2026-1001,Hardware & Infra,Application server refresh,932.85,CAD,Posted
+2026-03-07,AP-500019,V-10078,Ironwood Contracting Group,INV-8818,PO-2026-1080,Contractor Labour,QA analyst - monthly,17594.78,CAD,Posted
+2026-01-28,GJ-500103,,(Internal journal),,,Internal Labour,Internal labour recharge - monthly,15355.28,CAD,Posted
+2026-05-21,AP-500071,V-10044,Cascade Cloud Services Inc,INV-8870,PO-2026-1024,Cloud / Hosting,Non-prod environment hosting,3297.81,CAD,Posted
+2026-05-04,AP-500080,V-10133,Keystone Training Partners,INV-8879,PO-2026-1031,Training & Change,End-user training materials,245.73,CAD,Posted
+2026-05-26,AP-500095,V-10150,Harbourview Travel Management,INV-8894,PO-2026-1021,Travel,Vendor site visit,855.13,CAD,Posted
+2026-08-17,AP-500086,V-10133,Keystone Training Partners,INV-8885,PO-2026-1033,Training & Change,Super-user training cohort,740.51,CAD,Posted
+2026-07-04,AP-500043,V-10102,Northgate Software Licensing,INV-8842,PO-2026-1074,Software Licences,Core platform licence - annual,2623.37,CAD,Posted
+2026-08-27,AP-500087,V-10133,Keystone Training Partners,INV-8886,PO-2026-1099,Training & Change,Change readiness workshops,725.79,CAD,Posted
+2026-06-22,AP-500073,V-10044,Cascade Cloud Services Inc,INV-8872,PO-2026-1040,Cloud / Hosting,Compute - monthly usage,3567.04,CAD,Posted
+2026-08-24,AP-500061,V-10119,Summit Hardware Solutions,INV-8860,PO-2026-1013,Hardware & Infra,Load balancer appliance,472.31,CAD,Posted
+2026-01-16,AP-500063,V-10044,Cascade Cloud Services Inc,INV-8862,PO-2026-1003,Cloud / Hosting,Storage - monthly,1384.29,CAD,Posted
+2026-02-14,AP-500036,V-10102,Northgate Software Licensing,INV-8835,PO-2026-1054,Software Licences,Test automation licence,2266.46,CAD,Posted
+2026-04-03,AP-500068,V-10044,Cascade Cloud Services Inc,INV-8867,PO-2026-1014,Cloud / Hosting,Non-prod environment hosting,2694.93,CAD,Posted
+2026-06-22,AP-500024,V-10078,Ironwood Contracting Group,INV-8823,PO-2026-1041,Contractor Labour,Solution architect - part time,11242.88,CAD,Posted
+2026-07-26,AP-500100,V-10150,Harbourview Travel Management,INV-8899,PO-2026-1069,Travel,Onsite integration workshop,396.99,CAD,Posted
+2026-04-24,AP-500021,V-10078,Ironwood Contracting Group,INV-8820,PO-2026-1068,Contractor Labour,Data migration specialist,13205.76,CAD,Posted
+2026-08-04,AP-500060,V-10119,Summit Hardware Solutions,INV-8859,PO-2026-1045,Hardware & Infra,Network switch upgrade,496.17,CAD,Posted
+2026-02-10,AP-500048,V-10119,Summit Hardware Solutions,INV-8847,PO-2026-1033,Hardware & Infra,Storage expansion,13861.41,CAD,Posted
+2026-06-03,AP-500057,V-10119,Summit Hardware Solutions,INV-8856,PO-2026-1042,Hardware & Infra,Network switch upgrade,1604.7,CAD,Posted
+2026-06-05,AP-500096,V-10150,Harbourview Travel Management,INV-8895,PO-2026-1082,Travel,Vendor site visit,290.86,CAD,Posted
+2026-02-11,AP-500064,V-10044,Cascade Cloud Services Inc,INV-8863,PO-2026-1020,Cloud / Hosting,Compute - monthly usage,1441.04,CAD,Posted
+2026-05-09,AP-500055,V-10119,Summit Hardware Solutions,INV-8854,PO-2026-1087,Hardware & Infra,Load balancer appliance,2474.88,CAD,Posted
+2026-02-10,AP-500003,V-10021,Meridian Systems Integration Ltd,INV-8802,PO-2026-1064,SI Partner Fees,Cutover support,7856.94,CAD,Posted
+2026-07-04,AP-500045,V-10102,Northgate Software Licensing,INV-8844,PO-2026-1065,Software Licences,Core platform licence - annual,2158.22,CAD,Posted
+2026-03-10,AP-500066,V-10044,Cascade Cloud Services Inc,INV-8865,PO-2026-1003,Cloud / Hosting,Storage - monthly,1682.01,CAD,Posted
+2026-06-24,AP-500010,V-10021,Meridian Systems Integration Ltd,INV-8809,PO-2026-1029,SI Partner Fees,Integration build - phase billing,29765.11,CAD,Posted
+2026-03-03,AP-500049,V-10119,Summit Hardware Solutions,INV-8848,PO-2026-1058,Hardware & Infra,Application server refresh,8344.83,CAD,Posted
+2026-06-23,AP-500056,V-10119,Summit Hardware Solutions,INV-8855,PO-2026-1054,Hardware & Infra,Load balancer appliance,1638.1,CAD,Posted
+2026-05-22,AP-500070,V-10044,Cascade Cloud Services Inc,INV-8869,PO-2026-1065,Cloud / Hosting,Compute - monthly usage,2776.18,CAD,Posted
+2026-08-15,AP-500046,V-10102,Northgate Software Licensing,INV-8845,PO-2026-1015,Software Licences,API gateway licence,7734.13,CAD,Posted
+2026-04-06,AP-500007,V-10021,Meridian Systems Integration Ltd,INV-8806,PO-2026-1011,SI Partner Fees,UAT support services,46178.32,CAD,Posted
+2026-07-15,AP-500074,V-10044,Cascade Cloud Services Inc,INV-8873,PO-2026-1089,Cloud / Hosting,Non-prod environment hosting,3250.35,CAD,Posted
+2026-02-26,AP-500017,V-10166,Vantage Consulting Associates,INV-8816,PO-2026-1074,Contractor Labour,Solution architect - part time,4321.93,CAD,Posted
+2026-04-24,AP-500078,V-10133,Keystone Training Partners,INV-8877,PO-2026-1010,Training & Change,End-user training materials,139.2,CAD,Posted
+2026-02-10,AP-500089,V-10150,Harbourview Travel Management,INV-8888,PO-2026-1049,Travel,Steering committee travel,605.26,CAD,Posted
+2026-04-04,AP-500040,V-10102,Northgate Software Licensing,INV-8839,PO-2026-1083,Software Licences,Core platform licence - annual,7278.72,CAD,Posted
+2026-03-16,AP-500091,V-10150,Harbourview Travel Management,INV-8890,PO-2026-1049,Travel,Steering committee travel,546.27,CAD,Posted
+2026-06-17,AP-500111,V-10150,Harbourview Travel Management,INV-8896,PO-2026-1023,Travel,Onsite integration workshop,333.65,CAD,Posted
+2026-01-05,AP-500033,V-10102,Northgate Software Licensing,INV-8832,PO-2026-1065,Software Licences,API gateway licence,13811.6,CAD,Posted
+2026-06-27,AP-500082,V-10133,Keystone Training Partners,INV-8881,PO-2026-1098,Training & Change,Super-user training cohort,586.07,CAD,Posted
+2026-02-25,AP-500090,V-10150,Harbourview Travel Management,INV-8889,PO-2026-1027,Travel,Onsite integration workshop,435.29,CAD,Posted
+2026-04-19,AP-500077,V-10133,Keystone Training Partners,INV-8876,PO-2026-1060,Training & Change,Change readiness workshops,140.5,CAD,Posted
+2026-06-10,AP-500011,V-10021,Meridian Systems Integration Ltd,INV-8810,PO-2026-1012,SI Partner Fees,UAT support services,31234.33,CAD,Posted
+2026-07-07,AP-500027,V-10078,Ironwood Contracting Group,INV-8826,PO-2026-1084,Contractor Labour,Solution architect - part time,13951.7,CAD,Posted
+2026-04-20,AP-500093,V-10150,Harbourview Travel Management,INV-8892,PO-2026-1095,Travel,Steering committee travel,422.02,CAD,Posted
+2026-04-22,AP-500052,V-10119,Summit Hardware Solutions,INV-8851,PO-2026-1083,Hardware & Infra,Application server refresh,6097.24,CAD,Posted
+2026-03-20,AP-500050,V-10119,Summit Hardware Solutions,INV-8849,PO-2026-1027,Hardware & Infra,Load balancer appliance,9947.06,CAD,Posted
+2026-01-25,AP-500088,V-10150,Harbourview Travel Management,INV-8887,PO-2026-1036,Travel,Onsite integration workshop,1077.34,CAD,Posted
+2026-07-09,AP-500075,V-10044,Cascade Cloud Services Inc,INV-8874,PO-2026-1053,Cloud / Hosting,Data egress charges,3457.49,CAD,Posted
+2026-06-18,AP-500112,V-10021,Meridian Systems Integration Ltd,CN-8902,PO-2026-1012,SI Partner Fees,Credit note - overbilled sprint 4,-18450.0,CAD,Posted
+2026-02-10,AP-500005,V-10021,Meridian Systems Integration Ltd,INV-8804,PO-2026-1057,SI Partner Fees,Cutover support,7641.81,CAD,Posted
+2026-08-15,AP-500076,V-10044,Cascade Cloud Services Inc,INV-8875,PO-2026-1070,Cloud / Hosting,Compute - monthly usage,6663.84,CAD,Posted
+2026-08-04,AP-500015,V-10021,Meridian Systems Integration Ltd,INV-8814,PO-2026-1040,SI Partner Fees,UAT support services,28059.14,CAD,Posted
+2026-05-18,AP-500041,V-10102,Northgate Software Licensing,INV-8840,PO-2026-1027,Software Licences,Test automation licence,7871.98,CAD,Posted
+2026-05-03,AP-500022,V-10166,Vantage Consulting Associates,INV-8821,PO-2026-1092,Contractor Labour,Data migration specialist,14892.81,CAD,Posted
+2026-04-28,GJ-500106,,(Internal journal),,,Internal Labour,Internal labour recharge - monthly,24028.65,CAD,Posted
+2026-08-27,AP-500101,V-10150,Harbourview Travel Management,INV-8900,PO-2026-1003,Travel,Onsite integration workshop,483.46,CAD,Posted
