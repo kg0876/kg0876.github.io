@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project xmlns="http://schemas.microsoft.com/project">
+<Name>Resource Capacity &amp; Project Operations Uplift</Name>
+<Title>Resource Capacity &amp; Project Operations Uplift</Title>
+<Company>Meridian Digital Consulting</Company>
+<Author>Keshaav Gite - PCO</Author>
+<StartDate>2026-02-02T08:00:00</StartDate>
+<CurrencySymbol>$</CurrencySymbol><CurrencyCode>CAD</CurrencyCode>
+<ScheduleFromStart>1</ScheduleFromStart>
+<CalendarUID>1</CalendarUID>
+<Calendars><Calendar><UID>1</UID><Name>Standard</Name><IsBaseCalendar>1</IsBaseCalendar><WeekDays>
+<WeekDay><DayType>1</DayType><DayWorking>0</DayWorking></WeekDay>
+<WeekDay><DayType>2</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>3</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>4</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>5</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>6</DayType><DayWorking>1</DayWorking><WorkingTimes><WorkingTime><FromTime>08:00:00</FromTime><ToTime>12:00:00</ToTime></WorkingTime><WorkingTime><FromTime>13:00:00</FromTime><ToTime>17:00:00</ToTime></WorkingTime></WorkingTimes></WeekDay>
+<WeekDay><DayType>7</DayType><DayWorking>0</DayWorking></WeekDay>
+</WeekDays></Calendar></Calendars><Tasks>
+<Task><UID>1</UID><ID>1</ID><Name>RESOURCE CAPACITY &amp; PROJECT OPERATIONS UPLIFT</Name><Type>1</Type><OutlineLevel>1</OutlineLevel><Start>2026-02-02T08:00:00</Start><Finish>2026-05-26T17:00:00</Finish><Duration>PT912H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT912H0M0S</Work><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-02-02T08:00:00</Start><Finish>2026-05-26T17:00:00</Finish><Duration>PT912H0M0S</Duration><Work>PT912H0M0S</Work></Baseline>
+</Task>
+<Task><UID>2</UID><ID>2</ID><Name>1. Discovery &amp; Setup</Name><Type>1</Type><OutlineLevel>2</OutlineLevel><Start>2026-02-02T08:00:00</Start><Finish>2026-02-25T17:00:00</Finish><Duration>PT192H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT192H0M0S</Work><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-02-02T08:00:00</Start><Finish>2026-02-25T17:00:00</Finish><Duration>PT192H0M0S</Duration><Work>PT192H0M0S</Work></Baseline>
+</Task>
+<Task><UID>3</UID><ID>3</ID><Name>1.1 Resource inventory &amp; capacity baseline</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-02-02T08:00:00</Start><Finish>2026-02-06T17:00:00</Finish><Duration>PT40H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT40H0M0S</Work><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-02-02T08:00:00</Start><Finish>2026-02-06T17:00:00</Finish><Duration>PT40H0M0S</Duration><Work>PT40H0M0S</Work></Baseline>
+</Task>
+<Task><UID>4</UID><ID>4</ID><Name>1.2 Configure D365 Project Operations</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-02-09T08:00:00</Start><Finish>2026-02-18T17:00:00</Finish><Duration>PT64H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT64H0M0S</Work><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-02-09T08:00:00</Start><Finish>2026-02-18T17:00:00</Finish><Duration>PT64H0M0S</Duration><Work>PT64H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>3</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>5</UID><ID>5</ID><Name>1.3 Load resource master &amp; bill rates</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-02-19T08:00:00</Start><Finish>2026-02-24T17:00:00</Finish><Duration>PT32H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT32H0M0S</Work><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-02-19T08:00:00</Start><Finish>2026-02-24T17:00:00</Finish><Duration>PT32H0M0S</Duration><Work>PT32H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>4</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>6</UID><ID>6</ID><Name>1.4 MILESTONE: Environment ready</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-02-25T08:00:00</Start><Finish>2026-02-25T17:00:00</Finish><Duration>PT0H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><Milestone>1</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-02-25T08:00:00</Start><Finish>2026-02-25T17:00:00</Finish><Duration>PT0H0M0S</Duration><Work>PT0H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>5</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>7</UID><ID>7</ID><Name>2. Portfolio &amp; Demand</Name><Type>1</Type><OutlineLevel>2</OutlineLevel><Start>2026-02-25T08:00:00</Start><Finish>2026-03-31T17:00:00</Finish><Duration>PT280H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT280H0M0S</Work><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-02-25T08:00:00</Start><Finish>2026-03-31T17:00:00</Finish><Duration>PT280H0M0S</Duration><Work>PT280H0M0S</Work></Baseline>
+</Task>
+<Task><UID>8</UID><ID>8</ID><Name>2.1 Set up 6 projects &amp; WBS in D365</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-02-25T08:00:00</Start><Finish>2026-03-10T17:00:00</Finish><Duration>PT80H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT80H0M0S</Work><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-02-25T08:00:00</Start><Finish>2026-03-10T17:00:00</Finish><Duration>PT80H0M0S</Duration><Work>PT80H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>6</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>9</UID><ID>9</ID><Name>2.2 Capture weekly demand from PMs</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-03-11T08:00:00</Start><Finish>2026-03-18T17:00:00</Finish><Duration>PT48H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT48H0M0S</Work><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-03-11T08:00:00</Start><Finish>2026-03-18T17:00:00</Finish><Duration>PT48H0M0S</Duration><Work>PT48H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>8</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>10</UID><ID>10</ID><Name>2.3 Build resource allocations</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-03-19T08:00:00</Start><Finish>2026-03-30T17:00:00</Finish><Duration>PT64H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT64H0M0S</Work><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-03-19T08:00:00</Start><Finish>2026-03-30T17:00:00</Finish><Duration>PT64H0M0S</Duration><Work>PT64H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>9</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>11</UID><ID>11</ID><Name>2.4 MILESTONE: Portfolio baselined</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-03-31T08:00:00</Start><Finish>2026-03-31T17:00:00</Finish><Duration>PT0H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><Milestone>1</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-03-31T08:00:00</Start><Finish>2026-03-31T17:00:00</Finish><Duration>PT0H0M0S</Duration><Work>PT0H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>10</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>12</UID><ID>12</ID><Name>3. Capacity Analysis &amp; Cleanup</Name><Type>1</Type><OutlineLevel>2</OutlineLevel><Start>2026-03-31T08:00:00</Start><Finish>2026-04-23T17:00:00</Finish><Duration>PT192H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT192H0M0S</Work><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-03-31T08:00:00</Start><Finish>2026-04-23T17:00:00</Finish><Duration>PT192H0M0S</Duration><Work>PT192H0M0S</Work></Baseline>
+</Task>
+<Task><UID>13</UID><ID>13</ID><Name>3.1 Run utilisation analysis</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-03-31T08:00:00</Start><Finish>2026-04-03T17:00:00</Finish><Duration>PT32H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT32H0M0S</Work><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-03-31T08:00:00</Start><Finish>2026-04-03T17:00:00</Finish><Duration>PT32H0M0S</Duration><Work>PT32H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>11</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>14</UID><ID>14</ID><Name>3.2 Identify over-allocation &amp; data defects</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-04-06T08:00:00</Start><Finish>2026-04-10T17:00:00</Finish><Duration>PT40H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT40H0M0S</Work><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-04-06T08:00:00</Start><Finish>2026-04-10T17:00:00</Finish><Duration>PT40H0M0S</Duration><Work>PT40H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>13</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>15</UID><ID>15</ID><Name>3.3 Rebalance &amp; resolve defects</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-04-13T08:00:00</Start><Finish>2026-04-22T17:00:00</Finish><Duration>PT64H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT64H0M0S</Work><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-04-13T08:00:00</Start><Finish>2026-04-22T17:00:00</Finish><Duration>PT64H0M0S</Duration><Work>PT64H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>14</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>16</UID><ID>16</ID><Name>3.4 MILESTONE: Capacity healthy (under 100%)</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-04-23T08:00:00</Start><Finish>2026-04-23T17:00:00</Finish><Duration>PT0H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><Milestone>1</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-04-23T08:00:00</Start><Finish>2026-04-23T17:00:00</Finish><Duration>PT0H0M0S</Duration><Work>PT0H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>15</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>17</UID><ID>17</ID><Name>4. Reporting &amp; Automation</Name><Type>1</Type><OutlineLevel>2</OutlineLevel><Start>2026-04-23T08:00:00</Start><Finish>2026-05-13T17:00:00</Finish><Duration>PT168H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT168H0M0S</Work><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-04-23T08:00:00</Start><Finish>2026-05-13T17:00:00</Finish><Duration>PT168H0M0S</Duration><Work>PT168H0M0S</Work></Baseline>
+</Task>
+<Task><UID>18</UID><ID>18</ID><Name>4.1 Build Power BI utilisation dashboard</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-04-23T08:00:00</Start><Finish>2026-05-04T17:00:00</Finish><Duration>PT64H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT64H0M0S</Work><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-04-23T08:00:00</Start><Finish>2026-05-04T17:00:00</Finish><Duration>PT64H0M0S</Duration><Work>PT64H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>16</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>19</UID><ID>19</ID><Name>4.2 Build Power Automate booking-chaser flow</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-05-05T08:00:00</Start><Finish>2026-05-11T17:00:00</Finish><Duration>PT40H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT40H0M0S</Work><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-05-05T08:00:00</Start><Finish>2026-05-11T17:00:00</Finish><Duration>PT40H0M0S</Duration><Work>PT40H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>18</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>20</UID><ID>20</ID><Name>4.3 Time &amp; expense + billing setup</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-05-05T08:00:00</Start><Finish>2026-05-12T17:00:00</Finish><Duration>PT48H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT48H0M0S</Work><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-05-05T08:00:00</Start><Finish>2026-05-12T17:00:00</Finish><Duration>PT48H0M0S</Duration><Work>PT48H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>18</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>21</UID><ID>21</ID><Name>4.4 MILESTONE: Reporting live</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-05-13T08:00:00</Start><Finish>2026-05-13T17:00:00</Finish><Duration>PT0H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><Milestone>1</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-05-13T08:00:00</Start><Finish>2026-05-13T17:00:00</Finish><Duration>PT0H0M0S</Duration><Work>PT0H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>20</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>22</UID><ID>22</ID><Name>5. Embed &amp; Handover</Name><Type>1</Type><OutlineLevel>2</OutlineLevel><Start>2026-05-13T08:00:00</Start><Finish>2026-05-26T17:00:00</Finish><Duration>PT112H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT112H0M0S</Work><Milestone>0</Milestone><Summary>1</Summary><Critical>0</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-05-13T08:00:00</Start><Finish>2026-05-26T17:00:00</Finish><Duration>PT112H0M0S</Duration><Work>PT112H0M0S</Work></Baseline>
+</Task>
+<Task><UID>23</UID><ID>23</ID><Name>5.1 Weekly resourcing cadence embedded</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-05-13T08:00:00</Start><Finish>2026-05-19T17:00:00</Finish><Duration>PT40H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT40H0M0S</Work><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-05-13T08:00:00</Start><Finish>2026-05-19T17:00:00</Finish><Duration>PT40H0M0S</Duration><Work>PT40H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>21</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>24</UID><ID>24</ID><Name>5.2 Train PMs &amp; resourcing manager</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-05-20T08:00:00</Start><Finish>2026-05-25T17:00:00</Finish><Duration>PT32H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT32H0M0S</Work><Milestone>0</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-05-20T08:00:00</Start><Finish>2026-05-25T17:00:00</Finish><Duration>PT32H0M0S</Duration><Work>PT32H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>23</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+<Task><UID>25</UID><ID>25</ID><Name>5.3 MILESTONE: Handover complete</Name><Type>1</Type><OutlineLevel>3</OutlineLevel><Start>2026-05-26T08:00:00</Start><Finish>2026-05-26T17:00:00</Finish><Duration>PT0H0M0S</Duration><DurationFormat>7</DurationFormat><Work>PT0H0M0S</Work><Milestone>1</Milestone><Summary>0</Summary><Critical>1</Critical><Manual>0</Manual><Active>1</Active><Baseline><Number>0</Number><Start>2026-05-26T08:00:00</Start><Finish>2026-05-26T17:00:00</Finish><Duration>PT0H0M0S</Duration><Work>PT0H0M0S</Work></Baseline>
+<PredecessorLink><PredecessorUID>24</PredecessorUID><Type>1</Type></PredecessorLink>
+</Task>
+</Tasks><Resources>
+<Resource><UID>1</UID><ID>1</ID><Name>Project Control Officer</Name><Type>1</Type><MaxUnits>1</MaxUnits><CalendarUID>1</CalendarUID></Resource>
+<Resource><UID>2</UID><ID>2</ID><Name>Resourcing Manager</Name><Type>1</Type><MaxUnits>1</MaxUnits><CalendarUID>1</CalendarUID></Resource>
+<Resource><UID>3</UID><ID>3</ID><Name>D365 Consultant</Name><Type>1</Type><MaxUnits>1</MaxUnits><CalendarUID>1</CalendarUID></Resource>
+<Resource><UID>4</UID><ID>4</ID><Name>Power BI Developer</Name><Type>1</Type><MaxUnits>1</MaxUnits><CalendarUID>1</CalendarUID></Resource>
+<Resource><UID>5</UID><ID>5</ID><Name>Delivery Director</Name><Type>1</Type><MaxUnits>1</MaxUnits><CalendarUID>1</CalendarUID></Resource>
+</Resources><Assignments>
+<Assignment><UID>1</UID><TaskUID>3</TaskUID><ResourceUID>1</ResourceUID><Units>1</Units><Start>2026-02-02T08:00:00</Start><Finish>2026-02-06T17:00:00</Finish><Work>PT40H0M0S</Work></Assignment>
+<Assignment><UID>2</UID><TaskUID>4</TaskUID><ResourceUID>1</ResourceUID><Units>1</Units><Start>2026-02-09T08:00:00</Start><Finish>2026-02-18T17:00:00</Finish><Work>PT64H0M0S</Work></Assignment>
+<Assignment><UID>3</UID><TaskUID>5</TaskUID><ResourceUID>1</ResourceUID><Units>1</Units><Start>2026-02-19T08:00:00</Start><Finish>2026-02-24T17:00:00</Finish><Work>PT32H0M0S</Work></Assignment>
+<Assignment><UID>4</UID><TaskUID>8</TaskUID><ResourceUID>1</ResourceUID><Units>1</Units><Start>2026-02-25T08:00:00</Start><Finish>2026-03-10T17:00:00</Finish><Work>PT80H0M0S</Work></Assignment>
+<Assignment><UID>5</UID><TaskUID>9</TaskUID><ResourceUID>1</ResourceUID><Units>1</Units><Start>2026-03-11T08:00:00</Start><Finish>2026-03-18T17:00:00</Finish><Work>PT48H0M0S</Work></Assignment>
+<Assignment><UID>6</UID><TaskUID>10</TaskUID><ResourceUID>1</ResourceUID><Units>1</Units><Start>2026-03-19T08:00:00</Start><Finish>2026-03-30T17:00:00</Finish><Work>PT64H0M0S</Work></Assignment>
+<Assignment><UID>7</UID><TaskUID>13</TaskUID><ResourceUID>1</ResourceUID><Units>1</Units><Start>2026-03-31T08:00:00</Start><Finish>2026-04-03T17:00:00</Finish><Work>PT32H0M0S</Work></Assignment>
+<Assignment><UID>8</UID><TaskUID>14</TaskUID><ResourceUID>1</ResourceUID><Units>1</Units><Start>2026-04-06T08:00:00</Start><Finish>2026-04-10T17:00:00</Finish><Work>PT40H0M0S</Work></Assignment>
+<Assignment><UID>9</UID><TaskUID>15</TaskUID><ResourceUID>1</ResourceUID><Units>1</Units><Start>2026-04-13T08:00:00</Start><Finish>2026-04-22T17:00:00</Finish><Work>PT64H0M0S</Work></Assignment>
+<Assignment><UID>10</UID><TaskUID>18</TaskUID><ResourceUID>1</ResourceUID><Units>1</Units><Start>2026-04-23T08:00:00</Start><Finish>2026-05-04T17:00:00</Finish><Work>PT64H0M0S</Work></Assignment>
+<Assignment><UID>11</UID><TaskUID>19</TaskUID><ResourceUID>1</ResourceUID><Units>1</Units><Start>2026-05-05T08:00:00</Start><Finish>2026-05-11T17:00:00</Finish><Work>PT40H0M0S</Work></Assignment>
+<Assignment><UID>12</UID><TaskUID>20</TaskUID><ResourceUID>1</ResourceUID><Units>1</Units><Start>2026-05-05T08:00:00</Start><Finish>2026-05-12T17:00:00</Finish><Work>PT48H0M0S</Work></Assignment>
+<Assignment><UID>13</UID><TaskUID>23</TaskUID><ResourceUID>1</ResourceUID><Units>1</Units><Start>2026-05-13T08:00:00</Start><Finish>2026-05-19T17:00:00</Finish><Work>PT40H0M0S</Work></Assignment>
+<Assignment><UID>14</UID><TaskUID>24</TaskUID><ResourceUID>1</ResourceUID><Units>1</Units><Start>2026-05-20T08:00:00</Start><Finish>2026-05-25T17:00:00</Finish><Work>PT32H0M0S</Work></Assignment>
+</Assignments></Project>
